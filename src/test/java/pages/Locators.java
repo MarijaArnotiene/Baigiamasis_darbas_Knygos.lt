@@ -6,6 +6,13 @@ public class Locators {
 
     public static class KnygosLt {
 
+        public static class MyOrders{
+            public static By inputEmail = By.xpath("//input[@id='pay-without-registration-email']");
+            public static By inputBuyWithoutRegistration =
+                    By.xpath("//input[@class='btn btn-outline-primary btn-block disable-on-submit']");
+            public static By errorText = By.xpath("//div[@id='pay-without-registration-err']//div");
+        }
+
         public static class Cart {
 
             public static By emptyCartMessage =
@@ -23,6 +30,8 @@ public class Locators {
             public static By buttonSearch = By.xpath("//form[@id='main-search-form']//button");
             public static By acceptCookiesLink = By.xpath("//a[@class='cc-btn cc-allow']");
 
+            public static By linkMyOrders =
+                    By.xpath("//div[@class='col col-lg-auto user-menu-item my-books-item']//a");
         }
         public static class Category {
 
@@ -33,14 +42,6 @@ public class Locators {
             public static By searchResult = By.xpath("//div[@class='categorie-description']//strong[1]");
             public static By toCartButton =
                     By.xpath("(//button[@class='button buy btn btn-primary btn-buy w-100 mt-3'])[1]");
-        }
-
-        public static class GiftCertificates {
-
-            public static By value10eur =
-                    By.xpath("//input[@id='add_to_cart_single_custom_params_value_value_preset_0']");
-            public static By addToCartLink = By.xpath("//a[@id='add-coupon-to-cart']");
-
         }
     }
 }

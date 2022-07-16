@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80f7bc3b-8ff1-4955-b435-c9f47ec8f797" name="Changes" comment="Add Accept Cookies method">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/GiftCertificates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/GiftCertificates.java" afterDir="false" />
+    <list default="true" id="80f7bc3b-8ff1-4955-b435-c9f47ec8f797" name="Changes" comment="Add MyOrders class into Pages and Tests packages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/MyOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/MyOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/MyOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/MyOrders.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
       <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Search.testSearchAddToCart">
+  <component name="RunManager" selected="TestNG.MyOrders.testMyOrdersPage">
     <configuration name="Category.testAllBooksPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Knygos.lt" />
       <extension name="coverage">
@@ -70,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftCertificates.testContactsField" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyOrders.testContactsField" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Knygos.lt" />
       <extension name="coverage">
         <pattern>
@@ -79,7 +77,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.knygos.lt" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.GiftCertificates" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.MyOrders" />
       <option name="METHOD_NAME" value="testContactsField" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -88,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftCertificates.testGiftCertificatesPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyOrders.testMyOrdersPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Knygos.lt" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +95,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.knygos.lt" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.GiftCertificates" />
-      <option name="METHOD_NAME" value="testGiftCertificatesPage" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.MyOrders" />
+      <option name="METHOD_NAME" value="testMyOrdersPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,9 +142,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MyOrders.testMyOrdersPage" />
         <item itemvalue="TestNG.Search.testSearchAddToCart" />
-        <item itemvalue="TestNG.GiftCertificates.testGiftCertificatesPage" />
-        <item itemvalue="TestNG.GiftCertificates.testContactsField" />
+        <item itemvalue="TestNG.MyOrders.testContactsField" />
         <item itemvalue="TestNG.Search.testSearchField" />
         <item itemvalue="TestNG.Category.testAllBooksPage" />
       </list>
@@ -182,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657994905941</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add MyOrders class into Pages and Tests packages">
+      <created>1658001263390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658001263390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +205,7 @@
     <MESSAGE value="Created Empty Cart test" />
     <MESSAGE value="Created Category and Search tests" />
     <MESSAGE value="Add Accept Cookies method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Accept Cookies method" />
+    <MESSAGE value="Add MyOrders class into Pages and Tests packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MyOrders class into Pages and Tests packages" />
   </component>
 </project>

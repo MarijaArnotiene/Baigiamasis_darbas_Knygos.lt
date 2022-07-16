@@ -3,15 +3,16 @@ package pages.knygos.lt;
 import pages.Locators;
 
 public class MyOrders {
-    public static void open() {
-        utils.Common.openUrl("https://www.knygos.lt/lt/dovanu-kuponai/knygos-lt-dovanu-kuponas-atsispausdink-pats/");
+
+    public static void writeEmail(String email) {
+        utils.Common.sendKeyToElement(Locators.KnygosLt.MyOrders.inputEmail, email);
     }
 
-    public static void setValue() {
-        utils.Common.clickElementByAction(Locators.KnygosLt.GiftCertificates.value10eur);
+    public static void clickBuyWithoutRegistration() {
+        utils.Common.clickElement(Locators.KnygosLt.MyOrders.inputBuyWithoutRegistration);
     }
 
-    public static void addToCart() {
-        utils.Common.clickElementByAction(Locators.KnygosLt.GiftCertificates.addToCartLink);
+    public static String readErrorText() {
+        return utils.Common.getElementText(Locators.KnygosLt.MyOrders.errorText);
     }
 }
