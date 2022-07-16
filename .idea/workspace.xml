@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80f7bc3b-8ff1-4955-b435-c9f47ec8f797" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" afterDir="false" />
+    <list default="true" id="80f7bc3b-8ff1-4955-b435-c9f47ec8f797" name="Changes" comment="Created Empty Cart test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/marij/Documents/java projektai/Page Object Model"
+    "last_opened_file_path": "C:/Users/marij/Documents/java projektai/Automatinis testavimas"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,7 +54,7 @@
       <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Cart.testEmptyCart">
+  <component name="RunManager" selected="TestNG.Search.testSearchField">
     <configuration name="Cart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Knygos.lt" />
       <extension name="coverage">
@@ -71,6 +66,24 @@
       <option name="PACKAGE_NAME" value="tests.knygos.lt" />
       <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.Cart" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cart.testAllBooksPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Knygos.lt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.knygos.lt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.Cart" />
+      <option name="METHOD_NAME" value="testAllBooksPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -95,8 +108,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Category.testAllBooksPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Knygos.lt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.knygos.lt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.Category" />
+      <option name="METHOD_NAME" value="testAllBooksPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Search.testSearchField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Knygos.lt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.knygos.lt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.Search" />
+      <option name="METHOD_NAME" value="testSearchField" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Search.testSearchField" />
+        <item itemvalue="TestNG.Category.testAllBooksPage" />
+        <item itemvalue="TestNG.Cart.testAllBooksPage" />
         <item itemvalue="TestNG.Cart.testEmptyCart" />
         <item itemvalue="TestNG.Cart" />
       </list>
@@ -111,6 +163,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657971260199</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created Empty Cart test">
+      <created>1657979278117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657979278117</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,5 +183,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Empty Cart test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Empty Cart test" />
   </component>
 </project>

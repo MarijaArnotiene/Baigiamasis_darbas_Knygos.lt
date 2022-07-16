@@ -5,7 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import tests.BaseTest;
 
-public class Cart extends BaseTest {
+public class Category extends BaseTest {
 
     @BeforeMethod
     @Override
@@ -15,16 +15,15 @@ public class Cart extends BaseTest {
     }
 
     @Test
-    public void testEmptyCart() {
-        pages.knygos.lt.Home.clickCart();
+    public void testAllBooksPage() {
+        pages.knygos.lt.Home.clickMenuAllBooks();
 
-        String expectedMessage = "Jūsų prekių krepšelis tuščias.";
-        String actualMessage = pages.knygos.lt.Cart.readEmptyCartMessage();
+        pages.knygos.lt.Home.clickMenuPopularPsychology();
+
+        String expectedMessage = "Populiarioji psichologija";
+        String actualMessage = pages.knygos.lt.Category.readPopularPsycologyHeader();
 
         Assert.assertEquals(actualMessage, expectedMessage);
 
-        pages.knygos.lt.Cart.clickChooseItemButton();
     }
-
-
 }
