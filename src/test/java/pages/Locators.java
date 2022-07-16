@@ -20,8 +20,8 @@ public class Locators {
 
             public static By inputSearch = By.xpath("//input[@id='product-search']");
             public static By buttonSearch = By.xpath("//form[@id='main-search-form']//button");
-            public static By toCartButton =
-                    By.xpath("//button[@id='add_to_cart_single_add_to_cart_3854921']");
+
+            public static By acceptCookiesLink = By.xpath("//a[@class='cc-btn cc-allow']");
         }
 
         public static class Category {
@@ -30,6 +30,8 @@ public class Locators {
 
         public static class Search{
             public static By searchResult = By.xpath("//div[@class='categorie-description']//strong[1]");
+            public static By toCartButton =
+                    By.xpath("(//button[@class='button buy btn btn-primary btn-buy w-100 mt-3'])[1]");
         }
     }
 }

@@ -3,6 +3,7 @@ package tests.knygos.lt;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pages.Locators;
 import tests.BaseTest;
 
 public class Search extends BaseTest {
@@ -12,11 +13,11 @@ public class Search extends BaseTest {
     public void setUp() {
         super.setUp();
         pages.knygos.lt.Home.open();
-
+        utils.Common.acceptCookies(Locators.KnygosLt.Home.acceptCookiesLink);
     }
 
     @Test
-    public void testSearchField(){
+    public void testSearchField() {
         pages.knygos.lt.Home.setSearchText("Vasaros romanas");
 
         pages.knygos.lt.Home.clickSearchButton();
@@ -24,6 +25,14 @@ public class Search extends BaseTest {
         String actualSearchMessage = pages.knygos.lt.Search.readSearchResultMessage();
         Assert.assertTrue(Integer.parseInt(actualSearchMessage) > 0);
 
-//        pages.knygos.lt.Home.clickToCartButton();
+    }
+
+    @Test
+    public void testSearchAddToCart() {
+        pages.knygos.lt.Home.setSearchText("Sodo metai");
+
+        pages.knygos.lt.Home.clickSearchButton();
+
+        pages.knygos.lt.Search.clickToCartButton();
     }
 }

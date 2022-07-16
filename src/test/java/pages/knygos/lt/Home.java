@@ -29,9 +29,6 @@ public class Home {
         utils.Common.clickElement(Locators.KnygosLt.Home.buttonSearch);
     }
 
-    public static void clickToCartButton() {
-        utils.Common.clickElement(Locators.KnygosLt.Home.toCartButton);
-    }
 }
 
 
