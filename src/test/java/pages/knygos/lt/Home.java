@@ -28,7 +28,6 @@ public class Home {
     public static void clickSearchButton() {
         utils.Common.clickElement(Locators.KnygosLt.Home.buttonSearch);
     }
-
 }
 
 

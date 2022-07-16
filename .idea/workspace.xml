@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80f7bc3b-8ff1-4955-b435-c9f47ec8f797" name="Changes" comment="Created Category and Search tests">
+    <list default="true" id="80f7bc3b-8ff1-4955-b435-c9f47ec8f797" name="Changes" comment="Add Accept Cookies method">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/GiftCertificates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/GiftCertificates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,42 +52,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Search.testSearchAddToCart">
-    <configuration name="Cart.testAllBooksPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Knygos.lt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.knygos.lt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.Cart" />
-      <option name="METHOD_NAME" value="testAllBooksPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Cart.testEmptyCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Knygos.lt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.knygos.lt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.Cart" />
-      <option name="METHOD_NAME" value="testEmptyCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Category.testAllBooksPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Knygos.lt" />
       <extension name="coverage">
@@ -98,6 +63,42 @@
       <option name="PACKAGE_NAME" value="tests.knygos.lt" />
       <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.Category" />
       <option name="METHOD_NAME" value="testAllBooksPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GiftCertificates.testContactsField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Knygos.lt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.knygos.lt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.GiftCertificates" />
+      <option name="METHOD_NAME" value="testContactsField" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GiftCertificates.testGiftCertificatesPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Knygos.lt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.knygos.lt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.GiftCertificates" />
+      <option name="METHOD_NAME" value="testGiftCertificatesPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,10 +145,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Search.testSearchAddToCart" />
+        <item itemvalue="TestNG.GiftCertificates.testGiftCertificatesPage" />
+        <item itemvalue="TestNG.GiftCertificates.testContactsField" />
         <item itemvalue="TestNG.Search.testSearchField" />
         <item itemvalue="TestNG.Category.testAllBooksPage" />
-        <item itemvalue="TestNG.Cart.testAllBooksPage" />
-        <item itemvalue="TestNG.Cart.testEmptyCart" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657993653958</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Accept Cookies method">
+      <created>1657994905941</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657994905941</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +199,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Empty Cart test" />
     <MESSAGE value="Created Category and Search tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Category and Search tests" />
+    <MESSAGE value="Add Accept Cookies method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Accept Cookies method" />
   </component>
 </project>

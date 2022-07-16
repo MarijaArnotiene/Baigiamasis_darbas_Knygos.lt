@@ -20,7 +20,7 @@ public class Driver {
         ChromeOptions options = new ChromeOptions();
 //        options.addArguments("--start-maximized");
 //        options.addArguments("--start-in-incognito");
-        options.addArguments("--force-device-scale-factor=0.8");
+        options.addArguments("--force-device-scale-factor=1.0");
 
         driver.set(new ChromeDriver(options));
         driver.get().manage().window().setSize(new Dimension(1920, 1080));
