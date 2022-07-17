@@ -29,6 +29,16 @@ public class Cart extends BaseTest {
         pages.knygos.lt.Cart.clickChooseItemButton();
     }
 
+    @Test
+    public void testFailEmptyCart() {
+        pages.knygos.lt.Home.clickCart();
+
+        String expectedMessage = "Jūsų prekių krepšelis.";
+        String actualMessage = pages.knygos.lt.Cart.readEmptyCartMessage();
+
+        Assert.assertEquals(actualMessage, expectedMessage);
+    }
+
     @AfterMethod
     public void testsComplete()
     {
