@@ -18,8 +18,6 @@ public class Driver {
     public static void setDriver() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-//        options.addArguments("--start-maximized");
-//        options.addArguments("--start-in-incognito");
         options.addArguments("--force-device-scale-factor=1.0");
 
         driver.set(new ChromeDriver(options));
@@ -28,7 +26,7 @@ public class Driver {
     }
 
     public static void closeDriver() {
-//        driver.get().quit();
-//        driver.remove();
+        driver.get().quit();
+        driver.remove();
     }
 }
