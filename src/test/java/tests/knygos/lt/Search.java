@@ -28,7 +28,7 @@ public class Search extends BaseTest {
     }
 
     @Test
-    public void testSearchAddToCart() {
+    public void testSearchAndAddToCart() {
         pages.knygos.lt.Home.setSearchText("Sodo metai");
 
         pages.knygos.lt.Home.clickSearchButton();
