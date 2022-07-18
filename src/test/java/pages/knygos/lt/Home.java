@@ -1,36 +1,37 @@
 package pages.knygos.lt;
 
+import pages.Common;
 import pages.Locators;
 
 public class Home {
 
     public static void open() {
-        utils.Common.openUrl("https://www.knygos.lt/");
+        Common.openUrl("https://www.knygos.lt/");
     }
 
     public static void clickCart() {
-        utils.Common.clickElementByAction(Locators.KnygosLt.Home.linkCart);
+        Common.clickElementByAction(Locators.KnygosLt.Home.linkCart);
     }
 
     public static void clickMenuAllBooks() {
-        utils.Common.waitForElementToBeClickable(Locators.KnygosLt.Home.linkMenuAllBooks);
-        utils.Common.clickElement(Locators.KnygosLt.Home.linkMenuAllBooks);
+        Common.waitForElementToBeClickable(Locators.KnygosLt.Home.linkMenuAllBooks);
+        Common.clickElement(Locators.KnygosLt.Home.linkMenuAllBooks);
     }
 
     public static void clickMenuPopularPsychology() {
-        utils.Common.clickElementByAction(Locators.KnygosLt.Home.linkPopularPsychology);
+        Common.clickElementByAction(Locators.KnygosLt.Home.linkPopularPsychology);
     }
 
     public static void setSearchText(String searchText) {
-        utils.Common.sendKeyToElement(Locators.KnygosLt.Home.inputSearch, searchText);
+        Common.sendKeyToElement(Locators.KnygosLt.Home.inputSearch, searchText);
     }
 
     public static void clickSearchButton() {
-        utils.Common.clickElement(Locators.KnygosLt.Home.buttonSearch);
+        Common.clickElement(Locators.KnygosLt.Home.buttonSearch);
     }
 
     public static void clickMyOrders() {
-        utils.Common.clickElement(Locators.KnygosLt.Home.linkMyOrders);
+        Common.clickElement(Locators.KnygosLt.Home.linkMyOrders);
     }
 }
 
