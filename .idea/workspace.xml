@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80f7bc3b-8ff1-4955-b435-c9f47ec8f797" name="Changes" comment="Moved README.md file to root">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="80f7bc3b-8ff1-4955-b435-c9f47ec8f797" name="Changes" comment="Changes to gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marij\Documents\java projektai\Knygos.lt" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tests" />
       <recent name="utils" />
@@ -222,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658157030676</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added idea directory to gitignore">
+      <created>1658157234546</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658157234546</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changes to gitignore">
+      <created>1658157534190</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658157534190</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +264,8 @@
     <MESSAGE value="Added test FailEmptyCart to test Screenshot" />
     <MESSAGE value="Created README.md file and fixed typo in search test" />
     <MESSAGE value="Moved README.md file to root" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved README.md file to root" />
+    <MESSAGE value="Added idea directory to gitignore" />
+    <MESSAGE value="Changes to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes to gitignore" />
   </component>
 </project>
