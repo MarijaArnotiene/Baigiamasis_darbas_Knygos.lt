@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80f7bc3b-8ff1-4955-b435-c9f47ec8f797" name="Changes" comment="Created README.md file and fixed typo in search test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="80f7bc3b-8ff1-4955-b435-c9f47ec8f797" name="Changes" comment="Moved README.md file to root">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658054495969</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Moved README.md file to root">
+      <created>1658157030676</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658157030676</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +246,7 @@
     <MESSAGE value="Added AfterMethod to Cart test" />
     <MESSAGE value="Added test FailEmptyCart to test Screenshot" />
     <MESSAGE value="Created README.md file and fixed typo in search test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created README.md file and fixed typo in search test" />
+    <MESSAGE value="Moved README.md file to root" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved README.md file to root" />
   </component>
 </project>
