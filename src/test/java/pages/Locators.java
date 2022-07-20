@@ -24,17 +24,12 @@ public class Locators {
         }
 
         public static class Home {
-            public static By linkCart = By.xpath("//div[@id='cart']//a");
             public static By linkMenuAllBooks = By.xpath("//a[@id='all-products']");
             public static By linkPopularPsychology =
                     By.xpath("//a[@class='ico-sm-right-after' and text()='Populiarioji psichologija']");
             public static By inputSearch = By.xpath("//input[@id='product-search']");
 
             public static By buttonSearch = By.xpath("//form[@id='main-search-form']//button");
-            public static By acceptCookiesLink = By.xpath("//a[@class='cc-btn cc-allow']");
-
-            public static By linkMyOrders =
-                    By.xpath("//div[@class='col col-lg-auto user-menu-item my-books-item']//a");
         }
 
         public static class Category {

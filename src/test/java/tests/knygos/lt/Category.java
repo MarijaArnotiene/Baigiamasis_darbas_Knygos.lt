@@ -16,9 +16,9 @@ public class Category extends BaseTest {
 
     @Test
     public void testAllBooksPage() {
-        pages.knygos.lt.Home.clickMenuAllBooks();
+        pages.knygos.lt.Category.clickMenuAllBooks();
 
-        pages.knygos.lt.Home.clickMenuPopularPsychology();
+        pages.knygos.lt.Category.clickMenuPopularPsychology();
 
         String expectedMessage = "Populiarioji psichologija";
         String actualMessage = pages.knygos.lt.Category.readPopularPsycologyHeader();
