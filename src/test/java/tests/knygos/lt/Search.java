@@ -31,5 +31,9 @@ public class Search extends BaseTest {
         pages.knygos.lt.Home.clickSearchButton();
 
         pages.knygos.lt.Search.clickToCartButton();
+
+        String expectedMessage = "Prekė sėkmingai įtraukta į krepšelį";
+        String actualMessage = pages.knygos.lt.Search.readAddToCartHeaderMessage();
+        Assert.assertTrue(actualMessage.contains(expectedMessage));
     }
 }

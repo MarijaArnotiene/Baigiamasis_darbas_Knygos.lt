@@ -26,7 +26,6 @@ public class TestListener implements ITestListener {
         File screenshotFile = new File(
                 directory + "/screenshot_" + fDateAndTime + "_" + UUID.randomUUID() + ".png"
         );
-        // ./screenshots/first_screenshot.png
 
         try {
             FileUtils.copyFile(screenshotRaw, screenshotFile);

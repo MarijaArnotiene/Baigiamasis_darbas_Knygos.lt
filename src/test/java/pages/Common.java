@@ -42,11 +42,15 @@ public class Common {
         );
     }
 
-    public static void sendKeyToElement(By locator, String key) {
-        getElement(locator).sendKeys(key);
+    public static void waitForElementToBeVisible(By locator) {
+        WebDriverWait webDriverWait = new WebDriverWait(Driver.getDriver(), Constants.DURATION_TIMEOUT);
+        webDriverWait.until(
+                ExpectedConditions.visibilityOfElementLocated(locator)
+        );
     }
 
-    public static void acceptCookies(By locator) {
-        clickElement(locator);
+
+    public static void sendKeyToElement(By locator, String key) {
+        getElement(locator).sendKeys(key);
     }
 }
