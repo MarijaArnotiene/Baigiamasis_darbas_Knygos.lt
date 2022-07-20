@@ -3,8 +3,6 @@ package tests.knygos.lt;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.Common;
-import pages.Locators;
 import tests.BaseTest;
 
 public class Search extends BaseTest {
@@ -14,7 +12,6 @@ public class Search extends BaseTest {
     public void setUp() {
         super.setUp();
         pages.knygos.lt.Home.open();
-        Common.acceptCookies(Locators.KnygosLt.Home.acceptCookiesLink);
     }
 
     @Test
@@ -25,7 +22,6 @@ public class Search extends BaseTest {
 
         String actualSearchMessage = pages.knygos.lt.Search.readSearchResultMessage();
         Assert.assertTrue(Integer.parseInt(actualSearchMessage) > 0);
-
     }
 
     @Test

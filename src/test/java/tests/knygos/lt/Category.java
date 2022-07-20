@@ -3,8 +3,6 @@ package tests.knygos.lt;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.Common;
-import pages.Locators;
 import tests.BaseTest;
 
 public class Category extends BaseTest {
@@ -13,8 +11,7 @@ public class Category extends BaseTest {
     @Override
     public void setUp() {
         super.setUp();
-        pages.knygos.lt.Home.open();
-        Common.acceptCookies(Locators.KnygosLt.Home.acceptCookiesLink);
+        pages.knygos.lt.Category.open();
     }
 
     @Test

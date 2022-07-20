@@ -3,8 +3,6 @@ package tests.knygos.lt;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.Common;
-import pages.Locators;
 import tests.BaseTest;
 
 public class MyOrders extends BaseTest {
@@ -13,21 +11,17 @@ public class MyOrders extends BaseTest {
     @Override
     public void setUp() {
         super.setUp();
-        pages.knygos.lt.Home.open();
-        Common.acceptCookies(Locators.KnygosLt.Home.acceptCookiesLink);
+        pages.knygos.lt.MyOrders.open();
     }
 
     @Test
     public void testBuyWithoutRegistrationError() {
-        pages.knygos.lt.Home.clickMyOrders();
-
         pages.knygos.lt.MyOrders.writeEmail("test.knygoslt1234@test.lt");
 
         pages.knygos.lt.MyOrders.clickBuyWithoutRegistration();
 
         String expectedMessage = "Toks el. pašto adresas nerastas";
         String actualMessage = pages.knygos.lt.MyOrders.readErrorText();
-
         Assert.assertEquals(actualMessage, expectedMessage);
 
     }
