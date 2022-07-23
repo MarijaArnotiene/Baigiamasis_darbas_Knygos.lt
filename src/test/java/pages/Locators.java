@@ -30,6 +30,8 @@ public class Locators {
             public static By inputSearch = By.xpath("//input[@id='product-search']");
 
             public static By buttonSearch = By.xpath("//form[@id='main-search-form']//button");
+            public static By acceptCookiesLink =
+                    By.xpath("//div[@class='cc-compliance cc-highlight']//a[@class='cc-btn cc-allow']");
         }
 
         public static class Category {

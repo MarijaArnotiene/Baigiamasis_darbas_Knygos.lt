@@ -3,6 +3,7 @@ package tests.knygos.lt;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pages.Locators;
 import tests.BaseTest;
 
 public class MyOrders extends BaseTest {
@@ -12,6 +13,7 @@ public class MyOrders extends BaseTest {
     public void setUp() {
         super.setUp();
         pages.knygos.lt.MyOrders.open();
+        pages.Common.acceptCookies(Locators.KnygosLt.Home.acceptCookiesLink);
     }
 
     @Test

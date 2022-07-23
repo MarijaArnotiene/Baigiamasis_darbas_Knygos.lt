@@ -53,4 +53,9 @@ public class Common {
     public static void sendKeyToElement(By locator, String key) {
         getElement(locator).sendKeys(key);
     }
+
+    public static void acceptCookies(By locator) {
+        clickElement(locator);
+    }
 }
+
