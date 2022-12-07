@@ -32,7 +32,7 @@ public class Search extends BaseTest {
 
         pages.knygos.lt.Search.clickToCartButton();
 
-        String expectedMessage = "Prekė sėkmingai įtraukta į krepšelį";
+        String expectedMessage = "Tęsti prekių paiešką";
         String actualMessage = pages.knygos.lt.Search.readAddToCartHeaderMessage();
         Assert.assertTrue(actualMessage.contains(expectedMessage));
     }

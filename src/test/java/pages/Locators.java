@@ -43,7 +43,7 @@ public class Locators {
             public static By toCartButton =
                     By.xpath("(//button[@class='button buy btn btn-primary btn-buy w-100 mt-3'])[1]");
             public static By addToCartHeaderMessage =
-                    By.xpath("//div[@id='post-add-to-cart-modal']//div[@class='modal-header border-bottom-0']");
+                    By.xpath("//div[@class='modal-footer justify-content-center']//a[@class='btn btn-outline-secondary']");
         }
     }
 }
